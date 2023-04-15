@@ -38,3 +38,6 @@
     border-radius: 6px;
     cursor: pointer;
 }
+.content form button :hover{
+    background: #0ec50e;
+}
