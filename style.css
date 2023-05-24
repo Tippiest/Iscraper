@@ -1,3 +1,7 @@
+body{
+    background-color: #181717;
+}
+
 .content{
     position: absolute;
     left: 50%;
@@ -6,8 +10,9 @@
     max-width: 900px;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #181717;
+    color: #fff;
     padding-top: 50px;
+    font-size: 65px;
 }
 
 .content h1{
@@ -16,6 +21,7 @@
     margin-bottom: 40;
 }
 
+/* Form Button */
 .content form{
     background: #fff;
     padding: 10px;
@@ -37,7 +43,8 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: background 0.5s;
 }
-.content form button :hover{
+.content form button:hover{
     background: #0ec50e;
 }
